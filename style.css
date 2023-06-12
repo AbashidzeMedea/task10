@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  background: rgba(25, 26, 25, 1);
+  justify-content: space-around;
+  align-items: center;
+  height: 158px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-ul {
+  font-weight: 500;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding-left: 43px;
+  font-size: 24px;
+}
+
+.underlined a {
+  border-bottom: 3px solid;
+  color: rgba(255, 116, 32, 1);
+  padding-bottom: 19px;
+}
+
+select {
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  color: white;
+  background-color: inherit;
+  margin-right: 31px;
+}
+
+.nav-button {
+  width: 194px;
+  height: 66px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: rgba(255, 116, 32, 1);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+main {
+  background-image: url(assets-for-task10/background.png);
+  background-size: cover;
+  height: 936px;
+}
+
+.first-h1 {
+  color: white;
+}
+
+span {
+  color: rgba(255, 116, 32, 1);
+}
+
+.first-section-p {
+  color: rgba(255, 255, 255, 1);
+  width: 580px;
+  margin-bottom: 85px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.first-section button {
+  border: none;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  height: 66px;
+}
+
+.orange-button {
+  width: 274px;
+  color: white;
+  background-color: rgba(255, 116, 32, 1);
+  margin-right: 24px;
+}
+
+.white-button {
+  width: 208px;
+  background-color: white;
+}
+
+.white-button a {
+  color: black;
+}
+
+.button-arrow {
+  vertical-align: middle;
+}
+
+.first-section-div {
+  display: inline-block;
+  margin-left: 112px;
+}
+
+.first-section {
+  display: flex;
+  height: 936px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.second-section {
+  background: rgba(255, 116, 32, 1);
+  padding-bottom: 65px;
+}
+
+.second-section-ul li {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 24px;
+}
+
+.underlined-2 a {
+  border-bottom: 3px solid;
+  color: black;
+  padding-bottom: 14px;
+}
+
+.second-section-flex-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 54px;
+  margin-bottom: 49px;
+}
+
+.second-section-flex-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.relative-div {
+  position: relative;
+}
+
+.absolute-text {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  top: 520px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.explore-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.second-section-flex-three {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.second-section {
+  padding-left: 112px;
+  padding-right: 112px;
+}
+
+.third-section {
+  height: 1355px;
+  background-color: black;
+}
+
+.input {
+  width: 963px;
+  height: 661px;
+  background: rgba(255, 116, 32, 1);
+  padding-left: 53px;
+  padding-top: 42px;
+}
+
+.contact-div {
+  width: 499px;
+  height: 661px;
+  background: rgba(255, 116, 32, 1);
+  padding-left: 64px;
+  padding-top: 42px;
+}
+
+.text-div {
+  color: white;
+  text-align: center;
+}
+
+.orange-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(255, 116, 32, 1);
+  padding-top: 52px;
+  padding-bottom: 28px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  width: 1067px;
+  padding-bottom: 14px;
+  margin: auto;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ceo {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 102px;
+}
+
+.third-h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 121px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-div div {
+  border-radius: 15px;
+}
+
+.small,
+.service {
+  width: 419px;
+  height: 76px;
+}
+
+.large {
+  width: 856px;
+  height: 148px;
+}
+
+.small,
+.large,
+.service {
+  border: none;
+  border-radius: 15px;
+}
+
+.third-section-text-one {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.third-section-text-two,
+.submit {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.input-div p {
+  color: white;
+}
+
+.service,
+::placeholder {
+  background-color: white;
+  font-size: 20px;
+  color: rgba(25, 26, 25, 0.5);
+  padding-left: 65px;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit {
+  width: 856px;
+  height: 76px;
+  background: rgba(25, 26, 25, 1);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.small,
+.service,
+.large,
+.third-section-text-two {
+  margin-bottom: 18px;
+}
+
+.small {
+  margin-right: 18px;
+}
+
+.third-section-text-two {
+  width: 895px;
+}
+
+.ul-name {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 38px;
+}
+
+.li-name {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  width: 355px;
+  padding-bottom: 8px;
+}
+
+.li-info {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.contact-button {
+  background: rgba(25, 26, 25, 1);
+  color: white;
+  font-size: 20px;
+  width: 384px;
+  height: 76px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 45px;
+}
+
+footer {
+  height: 377px;
+  background: rgba(25, 26, 25, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 110px;
+}
+
+.footer-label {
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.footer-2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  max-width: 516px;
+  color: white;
+  font-size: 16px;
+}
+
+.footer-3 a {
+  margin-right: 17px;
+}
+
+.footer-3 {
+  display: flex;
+  justify-content: flex-start;
+}
